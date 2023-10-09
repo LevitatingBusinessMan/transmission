@@ -353,6 +353,10 @@ export class Torrent extends EventTarget {
     const s = this.getStatus();
 
     switch (state) {
+      case Prefs.filterIncomplete:
+        return (
+          !this.isDone()
+        );
       case Prefs.FilterActive:
         return (
           this.getPeersGettingFromUs() > 0 ||

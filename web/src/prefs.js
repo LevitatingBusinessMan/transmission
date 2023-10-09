@@ -103,6 +103,7 @@ Prefs.FilterDownloading = 'downloading';
 Prefs.FilterFinished = 'finished';
 Prefs.FilterMode = 'filter-mode';
 Prefs.FilterPaused = 'paused';
+Prefs.filterIncomplete = 'incomplete';
 Prefs.FilterSeeding = 'seeding';
 Prefs.NotificationsEnabled = 'notifications-enabled';
 Prefs.RefreshRate = 'refresh-rate-sec';
